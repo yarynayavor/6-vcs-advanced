@@ -1,0 +1,42 @@
+$ git clone https://github.com/yarynayavor/6-vcs-advanced.git
+$ cd 6-vcs-advanced
+$ explorer .
+$ git br architecture
+$ git checkout architecture
+$ touch index.html
+$ mkdir assets
+$ mkdir uploads
+$ git st
+$ git add .
+$ git st
+$ git ci -m "Added two folders assets/ and uploads/(have some files inside) and one index.html file with some content"
+$ touch assets/all.js
+$ touch assets/css.js
+$ git st
+$ git add .
+$ git st
+$ git push --set-upstream origin architecture
+$ git ci -m "Added some text to uploads/aa.txt"
+$ git push
+$ touch .gitignore
+$ git add .
+$ git st
+$ git ci -m "Added .gitignore to this repo"
+$ git push
+$ touch uploads/.gitkeep
+$ git add uploads/.gitkeep
+$ git ci -m "Added .gitkeep to uploads/ folder"
+$ start .gitignore
+// ((at .gitignore file write ` uploads/*.* ` ))
+$ git rm --cached uploads/*.*
+$ git st
+$ touch uploads/test.txt
+$ git st
+$ git add .gitignore
+$ git st
+$ git ci -m "Ignore all files in uploads/ folder without folder due to .gitkeep file in this folder"
+$ git push
+$ git checkout master
+$ git merge architecture
+$ git push
+$ git br -d architecture
