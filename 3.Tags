@@ -1,0 +1,24 @@
+$ git clone https://github.com/yarynayavor/Tag.git
+$ cd Tag
+$ git tag -a v1.2 -m "my version is 1.2"
+$ explorer .
+$ touch text.txt
+$ git add .
+$ git ci -m "Added text.txt file"
+$ echo "Some text" >> text.txt
+$ git add .
+$ git ci -m "Added some text to text.txt"
+$ touch document.doc
+$ git add .
+$ git ci -m "Added document.doc file"
+$ echo "Some text is here" >> document.doc
+$ git add .
+$ git ci -m "Added some text to document.doc"
+$ cat text.txt
+$ cat document.doc
+$ git tag -a v1.4 -m "my version is 1.4"
+$ git tag
+$ git show
+$ git push
+$ git push origin v1.2
+$ git push origin v1.4
