@@ -1,0 +1,23 @@
+$ git clone https://github.com/yarynayavor/rebase-second-task.git
+$ cd rebase-second-task
+$ explorer .
+$ git br testbr
+$ touch a.txt
+$ echo "Some text is here" >> a.txt
+$ cat a.txt
+$ touch b.txt
+$ echo "Hi! How are you?" >> b.txt
+$ cat b.txt
+$ git checkout testbr
+$ git rebase master
+$ echo "Some text add after rebase" >> a.txt
+$ cat a.txt
+$ touch c.txt
+$ echo "New file with some text after rebasing master in my branch" >> c.txt
+$ cat c.txt
+$ git checkout master
+$ git merge testbr
+$ git st
+$ git ci -m "Added some commits in master then rebase in branch testbr, then make some commits  in testbr branch, then do merge in master"
+$ git br -d testbr
+$ git push
