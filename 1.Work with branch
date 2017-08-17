@@ -38,5 +38,5 @@ $ git ci -m "Ignore all files in uploads/ folder without folder due to .gitkeep 
 $ git push
 $ git checkout master
 $ git merge architecture
-$ git push
 $ git br -d architecture
+$ git push
