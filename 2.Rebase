@@ -3,21 +3,40 @@ $ cd rebase-second-task
 $ explorer .
 $ git br testbr
 $ touch a.txt
+$ git st
+$ git add a.txt
+$ git ci -m "Added a.txt file"
 $ echo "Some text is here" >> a.txt
+$ git add a.txt
+$ git st
+$ git ci -m "Added some text to a.txt file"
 $ cat a.txt
 $ touch b.txt
+$ git st
+$ git add b.txt
+$ git ci -m "Added b.txt file"
 $ echo "Hi! How are you?" >> b.txt
+$ git add b.txt
+$ git st
+$ git ci -m "Added some text to b.txt file"
 $ cat b.txt
 $ git checkout testbr
 $ git rebase master
 $ echo "Some text add after rebase" >> a.txt
+$ git st
+$ git add .
+$ git ci -m "Added some text after rebase to a.txt"
 $ cat a.txt
 $ touch c.txt
+$ git add c.txt
+$ git ci -m "Added new file c.txt after rebase in branch"
 $ echo "New file with some text after rebasing master in my branch" >> c.txt
+$ git add .
+$ git ci -m "Added new file with some text after rebasing master in my branch"
 $ cat c.txt
 $ git checkout master
 $ git merge testbr
 $ git st
-$ git ci -m "Added some commits in master then rebase in branch testbr, then make some commits  in testbr branch, then do merge in master"
+$ git ci -m "do merge in master"
 $ git br -d testbr
 $ git push
