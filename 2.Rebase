@@ -36,7 +36,5 @@ $ git ci -m "Added new file with some text after rebasing master in my branch"
 $ cat c.txt
 $ git checkout master
 $ git merge testbr
-$ git st
-$ git ci -m "do merge in master"
 $ git br -d testbr
 $ git push
