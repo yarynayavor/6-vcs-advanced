@@ -1,0 +1,16 @@
+$ git clone https://github.com/yarynayavor/git-pages.git
+$ cd git-pages
+$ git br gh-pages
+$ git checkout gh-pages
+$ touch index.html
+$ explorer .
+$ git st
+$ git add .
+$ git st
+$ git ci -m "Added index.html file with some content"
+$ git push --set-upstream origin gh-pages
+$ git st
+$ git add -u
+$ git st
+$ git ci -m "Make some changes (added border to h1 and added paragraph with green style text)"
+$ git push
