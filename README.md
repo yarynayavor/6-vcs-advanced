@@ -8,3 +8,7 @@ This is my  Homework "VCS Advanced".
 3. [Tags (link to repo)](https://github.com/yarynayavor/Tag)
 
 4. [Submodule (link to repo)](https://github.com/yarynayavor/Submodule)
+
+5. [Git Pages (link to repo)](https://github.com/yarynayavor/git-pages)
+   [https://yarynayavor.github.io/git-pages/](https://yarynayavor.github.io/git-pages/)
+
