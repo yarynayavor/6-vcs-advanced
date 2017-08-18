@@ -9,6 +9,6 @@ This is my  Homework "VCS Advanced".
 
 4. [Submodule (link to repo)](https://github.com/yarynayavor/Submodule)
 
-5. [Git Pages (link to repo)](https://github.com/yarynayavor/git-pages)
+5. [Git Pages (link to repo)](https://github.com/yarynayavor/git-pages) <space><space>
    [https://yarynayavor.github.io/git-pages/](https://yarynayavor.github.io/git-pages/)
 
