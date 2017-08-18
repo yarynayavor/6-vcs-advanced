@@ -1,0 +1,46 @@
+$ git clone https://github.com/yarynayavor/test-conflict.git
+$ cd test-conflict
+$ git br testbr
+$ touch file.txt
+$ git add .
+$ git ci -m "Added file.txt file"
+$ git checkout testbr
+$ explorer .
+$ touch file.txt
+$ git add .
+$ git ci -m "Added file.txt file to branch testbr"
+$ git checkout master
+$ echo "Hello" > file.txt
+$ git add .
+$ git ci -m "Add text to file.txt"
+$ git checkout testbr
+$ echo "This is awesome" > file.txt
+$ git add .
+$ git st
+$ git ci -m "Change text content in file.txt"
+$ git checkout master
+
+$ git merge testbr
+Auto-merging file.txt
+CONFLICT (add/add): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ git merge --abort
+
+$ start file.txt
+$ git add .
+$ git ci -m " try to fix conflicts in file.txt"
+
+$ git merge testbr
+Auto-merging file.txt
+CONFLICT (add/add): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ start file.txt
+$ git add .
+$ git ci -m "fixed conflict in file.txt"
+
+$ git merge testbr
+Already up-to-date.
+
+$ git push
