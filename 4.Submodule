@@ -1,0 +1,13 @@
+$ git clone https://github.com/yarynayavor/Submodule.git
+$ cd Submodule
+$ touch text.txt
+$ git add .
+$ git ci -m "Added text.txt file"
+$ echo "Some text" >> text.txt
+$ git add .
+$ git ci -m "Added some text to text.txt file"
+$ git submodule add git://github.com/swiftmailer/swiftmailer.git src/vendor/swiftmailer
+$ git submodule status
+$ git st
+$ git ci -m "Added Swift submodule to my project"
+$ git push
