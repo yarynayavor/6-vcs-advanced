@@ -6,3 +6,5 @@ This is my  Homework "VCS Advanced".
 2. [Rebase (link to repo)](https://github.com/yarynayavor/rebase-second-task)
 
 3. [Tags (link to repo)](https://github.com/yarynayavor/Tag)
+
+4. [Submodule (link to repo)](https://github.com/yarynayavor/Submodule)
