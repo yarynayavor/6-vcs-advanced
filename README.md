@@ -13,3 +13,4 @@ This is my  Homework "VCS Advanced".
 
 [https://yarynayavor.github.io/git-pages/](https://yarynayavor.github.io/git-pages/)
 
+6. [Conflict (link to repo)](https://github.com/yarynayavor/test-conflict)
